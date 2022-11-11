@@ -8,8 +8,8 @@ import image6 from '../Assets/image 6.png';
 const LandingMain = () => {
   return <div className={classes.container}>
     <div className={classes['section-one']}>
-      <h2>Rent a <span>place</span> away from <span>home</span> in the <span>metaverse</span></h2>
-      <p>We provide you access to luxury and affordable houses in the metaverse, get a change to turn your imagination to a reality at your comfort zone.</p>
+      <h2 className={classes.h2}>Rent a <span>place</span> away from <span>home</span> in the <span>metaverse</span></h2>
+      <p className={classes.p}>We provide you access to luxury and affordable houses in the metaverse, get a change to turn your imagination to a reality at your comfort zone.</p>
       <form className={classes.search}>
         <input className={classes.input} type='text' />
         <button className={classes.btn} type='submit'>Search</button>

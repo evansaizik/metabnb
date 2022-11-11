@@ -1,0 +1,106 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 774px;
+  left: 0px;
+  top: 1731px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: 1px solid #000000;
+}
+
+.btn {
+  position: absolute;
+  left: 6.94%;
+  right: 82.22%;
+  top: 61.31%;
+  bottom: 32.49%;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  border-radius: 8px;
+}
+
+.h2 {
+  position: absolute;
+  width: 346px;
+  height: 60px;
+  left: 7%;
+  top: 186px;
+
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-clip: text;
+}
+
+.p {
+  position: absolute;
+  left: 6.94%;
+  right: 64.24%;
+  top: 36.3%;
+  bottom: 46.12%;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  width: 430px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-clip: text;
+}
+
+.frame {
+  position: absolute;
+  width: 45%;
+  height: 574.85px;
+  left: 557px;
+  top: 100px;
+  /* background-color: white; */
+}
+
+#one {
+  margin: 0;
+  width: 30rem;
+  height: 22rem;
+  /* background-color: red; */
+  position: absolute;
+  /* width: 378.2px; */
+  /* height: 253.89px; */
+  left: -39px;
+  top: 200px;
+  border-radius: 10px;
+  z-index: 1;
+  /* transform: rotate(-20.02deg); */
+}
+
+#two {
+  margin: 0;
+  position: absolute;
+  /* background-color: red; */
+  width: 25rem;
+  height: 17rem;
+  left: 234px;
+  top: 284px;
+  border-radius: 10px;
+  transform: rotate(-8.76deg);
+  z-index: 2;
+}
+
+#three {
+  margin: 0;
+  position: absolute;
+  width: 29rem;
+  height: 30rem;
+  left: 170px;
+  top: -40px;
+  border-radius: 10px;
+  transform: rotate(-5deg);
+  /* background-color: red; */
+}
