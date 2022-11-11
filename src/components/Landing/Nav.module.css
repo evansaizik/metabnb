@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  position: absolute;
+  left: 31.94%;
+  right: 17.58%;
+  top: 31.25%;
+  bottom: 20.83%;
+}
+
+a {
+  width: 125px;
+  height: 25px;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+  text-decoration: none;
+}

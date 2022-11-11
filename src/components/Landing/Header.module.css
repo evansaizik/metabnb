@@ -1,0 +1,23 @@
+.header{ 
+  position: absolute;
+  width: 86.1%;
+  height: 48px;
+  left: 100px;
+  top: 43px;
+}
+
+.btn {
+  position: absolute;
+  left: 86.29%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
