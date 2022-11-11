@@ -1,3 +1,4 @@
+import Collectibles from './Collectibles';
 import Header from './Header';
 import classes from './landing.module.css';
 import LandingMain from './LandingMain';
@@ -7,6 +8,7 @@ const Landing = () => {
     <div className={classes.container}>
       <Header />
       <LandingMain />
+      <Collectibles />
     </div>
   </div>
 };

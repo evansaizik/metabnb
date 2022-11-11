@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 6.9%;
+  gap: 18.3%;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 742px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
