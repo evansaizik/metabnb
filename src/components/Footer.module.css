@@ -58,8 +58,35 @@
 
 .rights {
   position: absolute;
-  left: 8.19%;
+  left: 9%;
   /* right: 82.15%; */
   /* top: 82.92%; */
   bottom: 11.49%;
+}
+
+.fb {
+  position: absolute;
+  left: 7.85%;
+  right: 90.9%;
+  top: 60.25%;
+  bottom: 34.16%;
+  width: 20px;
+}
+
+.instagram {
+  position: absolute;
+  left: 11.32%;
+  right: 87.43%;
+  top: 60.25%;
+  bottom: 34.16%;
+  width: 20px;
+}
+
+.twitter {
+  position: absolute;
+  left: 14.79%;
+  right: 83.96%;
+  top: 60.25%;
+  bottom: 34.16%;
+  width: 20px;
 }

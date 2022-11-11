@@ -1,5 +1,9 @@
 import layouts from './Footer.module.css';
 import bnb from './Assets/meta.svg';
+import fbIcon from './Assets/facebook.svg';
+import instagram from './Assets/instagram.svg';
+import twitter from './Assets/twitter.svg';
+
 
 const Footer = () => {
   return <footer className={layouts.container}>
@@ -27,7 +31,9 @@ const Footer = () => {
         <p>Contact us</p>
       </section>
     </div>
-    {/* <img src={rights} alt='rights' className={layouts.rights} /> */}
+    <img src={fbIcon} alt='facebook logo' className={layouts.fb} />
+    <img src={instagram} alt='isntagram logo' className={layouts.instagram} />
+    <img src={twitter} alt='twitter logo' className={layouts.twitter} />
     <p className={layouts.rights}>&copy; 2022 Metabnb</p>
   </footer>
 };
