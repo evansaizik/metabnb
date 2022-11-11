@@ -1,0 +1,65 @@
+.container {
+  /* position: absolute; */
+  position: relative;
+  width: 100%;
+  height: 322px;
+  /* left: 0px; */
+  /* top: 2568px; */
+  background: #1D1D1E;
+}
+
+.img {
+  position: absolute;
+  left: 7.85%;
+  right: 75.97%;
+  top: 18.01%;
+  bottom: 69.57%;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 150px;
+  position: absolute;
+  width: 48.5%;
+  height: 169px;
+  left: 500px;
+  top: 63px;
+  /* background-color: orange; */
+}
+
+.section h4{
+  /* position: absolute;
+  left: 0%;
+  right: 85.53%;
+  top: 0%;
+  bottom: 86.98%; */
+  /* background-color: yellow; */
+  width: 101px;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.section p, .rights {
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 300;
+  font-size: .7rem;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.rights {
+  position: absolute;
+  left: 8.19%;
+  /* right: 82.15%; */
+  /* top: 82.92%; */
+  bottom: 11.49%;
+}
