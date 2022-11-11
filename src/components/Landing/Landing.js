@@ -1,3 +1,4 @@
+import Adventure from './Adventure';
 import Collectibles from './Collectibles';
 import Header from './Header';
 import classes from './landing.module.css';
@@ -9,6 +10,7 @@ const Landing = () => {
       <Header />
       <LandingMain />
       <Collectibles />
+      <Adventure />
     </div>
   </div>
 };
