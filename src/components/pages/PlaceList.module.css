@@ -1,0 +1,27 @@
+.placelist {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 86.1%;
+  margin: auto;
+  height: 372px;
+  position: relative;
+  z-index: -1;
+  top: 18rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.items {
+  width: 16.1rem;
+  height: 19rem;
+  background-color: rgb(119, 113, 113);
+  /* margin: .2rem; */
+}
+
+.pic {
+  width: 16.1rem;
+  margin: 1rem;
+}

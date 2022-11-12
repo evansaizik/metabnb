@@ -4,7 +4,7 @@ import bnb from '../Assets/Group.svg';
 
 const Header = props => {
   return <header className={classes.header}>
-    <img src={bnb} alt='metabnb'/>
+    <img className={classes.imglogo} src={bnb} alt='metabnb'/>
     <Nav />
     <button onClick={props.onClick} className={classes.btn}>Connect wallet</button>
   </header>
