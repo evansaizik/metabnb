@@ -11,14 +11,9 @@
   z-index: -1;
   top: 18rem;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
-  /* background-color: rgb(138, 134, 134); */
 }
 
 .items {
   width: 16.5rem;
   margin: .6rem;
-  /* height: 19rem; */
-  /* background-color: rgb(119, 113, 113); */
-  /* margin: .2rem; */
 }

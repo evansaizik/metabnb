@@ -20,19 +20,9 @@ const PlaceList = () => {
   const list = [one, two, three, four, five, six, seven, eight, nine, ten, el, twe, thir, fort, fift, sixt]
 
   return <section className={placedesign.placelist}>
-    
-      {list.map(places => {
-        return <img className={placedesign.items} src={places} alt='jknv' />
-      })}
-      
-    {/* <div className={placedesign.items}>two</div>
-    <div className={placedesign.items}>three</div>
-    <div className={placedesign.items}>one</div>
-    <div className={placedesign.items}>one</div>
-    <div className={placedesign.items}>one</div>
-    <div className={placedesign.items}>one</div>
-    <div className={placedesign.items}>one</div>
-    <div className={placedesign.items}>one</div> */}
+    {list.map(places => {
+      return <img className={placedesign.items} src={places} alt='jknv' />
+    })}
   </section>
 };
 

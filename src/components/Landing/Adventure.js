@@ -11,18 +11,14 @@ import seaOne from '../Assets/Group 40511.svg';
 
 
 const Adventure = () => {
+  const nftList = [desertKing, desert, King, sea, desertKingOne, desertOne, KingOne, seaOne]
+
   return <section className={classes.container} >
     <h3>Inspiration for your next adventure</h3>
     <main className={classes.main}>
-      <div>
-        <img src={desertKing} alt='desert king' />
-        <img src={desert} alt='desert' />
-        <img src={King} alt='king' />
-        <img src={sea} alt='sea' />
-        <img src={desertKingOne} alt='des' />
-        <img src={desertOne} alt='des' />
-        <img src={KingOne} alt='des' />
-        <img src={seaOne} alt='des' />
+      <div>{nftList.map(nft => {
+        return <img src={nft} alt='desert king' />
+      })}
       </div>
     </main>
   </section>
