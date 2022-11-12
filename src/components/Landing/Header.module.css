@@ -4,6 +4,7 @@
   height: 48px;
   left: 100px;
   top: 43px;
+  z-index: 1;
 }
 
 .btn {

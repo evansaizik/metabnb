@@ -1,5 +1,5 @@
 .layout {
-  /* width: 100vw; */
+  width: 100vw;
   height: 2505px;
 }
 
@@ -10,4 +10,5 @@
   left: 0px;
   top: 0px;
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  z-index: -1;
 }
