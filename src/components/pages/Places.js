@@ -3,10 +3,9 @@ import location from '../Assets/Frame 13.svg';
 import PlaceList from './PlaceList';
 
 const Places = () => {
-  // const houses = []
 
   return <div className={design.page}>
-    <img src={location} alt='location' />
+    <img className={design.location} src={location} alt='location' />
     <div className={design.options}>
       <p>Restaurants</p>
       <p>Cottage</p>
