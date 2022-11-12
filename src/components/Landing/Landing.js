@@ -5,10 +5,10 @@ import Header from './Header';
 import classes from './landing.module.css';
 import LandingMain from './LandingMain';
 
-const Landing = () => {
+const Landing = props => {
   return <div className={classes.layout}>
     <div className={classes.container}>
-      <Header />
+      <Header onClick={props.onClick} />
       <LandingMain />
       <Collectibles />
       <Adventure />
