@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+# build file
+/build
 
 # misc
 .DS_Store
