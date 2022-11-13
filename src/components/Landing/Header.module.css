@@ -34,8 +34,8 @@
     position: absolute;
     width: 75.1%;
     height: 48px;
-    left: 50px;
-    top: 43px;
+    left: 90px;
+    top: 50px;
     z-index: 1;
     display: flex;
     flex-direction: row;
@@ -43,11 +43,6 @@
   }
 
   .btn {
-    /* position: absolute; */
-    /* left: 70.29%; */
-    /* right: 0%; */
-    /* top: 0%; */
-    /* bottom: 0%; */
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-radius: 10px;
     font-family: 'Red Rose';
