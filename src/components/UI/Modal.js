@@ -19,7 +19,6 @@ const Modal = props => {
         <div className={styling.wallet}>
           <img src={metamask} alt='metamask wallet' />
           <img className={styling.proceed} src={proceedIcon} alt='proceed' />
-
         </div>
         <div className={styling.wallet}>
           <img src={wallet} alt='wallet connection' />
