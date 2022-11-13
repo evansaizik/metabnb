@@ -5,9 +5,9 @@ import opensea from '../Assets/Frame 4041.svg';
 
 const Collectibles = () => {
   return <div className={classes.container}>
-    <img src={MBToken} alt='MBToken'/>
-    <img src={metamask} alt='MBToken'/>
-    <img src={opensea} alt='MBToken'/>
+    <img className={classes.tokens} src={MBToken} alt='MBToken'/>
+    <img className={classes.tokens} src={metamask} alt='MBToken'/>
+    <img className={classes.tokens} src={opensea} alt='MBToken'/>
   </div>
 };
 

@@ -3,11 +3,12 @@ import closeIcon from '../Assets/x.svg';
 import metamask from '../Assets/metamask.svg';
 import wallet from '../Assets/walletconnection.svg'
 import proceedIcon from '../Assets/Down Chevron.svg';
+import Backdrop from './Backdrop';
 
 const Modal = props => {
 
   return <>
-    <div onClick={props.onClick} className={styling.backdrop} />
+    <Backdrop onClick={props.onClick}/>
     <div className={styling.card}>
       <header className={styling.header}>
         <h4>Connect Wallet</h4>

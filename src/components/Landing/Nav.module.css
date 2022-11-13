@@ -11,6 +11,10 @@
   bottom: 20.83%;
 }
 
+.menu {
+  display: none;
+}
+
 a {
   /* width: 125px; */
   height: 25px;
@@ -21,4 +25,49 @@ a {
   line-height: 25px;
   color: #434343;
   text-decoration: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1158px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    /* right: 0px; */
+    background-color: #434343;
+    height: 330px;
+    /* justify-content: center; */
+    z-index: 1;
+    width: 67.1%;
+  }
+
+  .open {
+    transform: translateY(0px);
+    transition: all 0.5s;
+  }
+  .close {
+    transform: translateY(-300px);
+    transition: all 0.5s;
+  }
+
+  a {
+    width: 200px;
+    height: 25px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 25px;
+    color: #c0b9b9;
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .menu {
+    display: block;
+    margin: auto;
+    transform: rotate(90deg);
+  }
 }

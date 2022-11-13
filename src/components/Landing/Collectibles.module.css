@@ -12,3 +12,8 @@
   top: 742px;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
+
+.tokens {
+  width: 20.5%;
+  height: 30px;
+}
