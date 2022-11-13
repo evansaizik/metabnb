@@ -111,7 +111,7 @@ span {
   position: absolute;
   width: 234px;
   height: 176px;
-  left: -40px;
+  left: -7px;
   top: 99px;
   border-radius: 15px;
 }
@@ -120,7 +120,7 @@ span {
   position: absolute;
   width: 234px;
   height: 176px;
-  left: -40px;
+  left: -7px;
   top: 283px;
   border-radius: 15px;
 }
@@ -141,4 +141,309 @@ span {
   right: -7px;
   top: 184px;
   border-radius: 15px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 579px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* gap: 99px; */
+    position: absolute;
+    width: 84.8%;
+    height: 459px;
+    left: 7%;
+    top: 100px;
+    padding: 0;
+  }
+
+  .h2 {
+    width: 100%;
+    height: 148px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #434343;
+    text-align: center;
+  }
+
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 48px; */
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+  }
+
+  .section-two {
+    width: 90%;
+    height: 250px;
+    position: absolute;
+    top: 170px;
+  }
+
+  .three {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 15px;
+  }
+
+  .four {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 0px;
+    top: 100px;
+    border-radius: 15px;
+  }
+
+  .five {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    right: 0px;
+    top: 0px;
+    border-radius: 15px;
+  }
+  .six {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    right: 0px;
+    top: 150px;
+    border-radius: 15px;
+  }
+  
+  .p {
+    font-size: 1rem;
+    font-family: 'Red Rose';
+    margin: 0;
+    color: #434343;
+    position: absolute;
+    top: 450px;
+  }
+
+  .search {
+    position: absolute;
+    top: 550px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* gap: 99px; */
+    position: absolute;
+    width: 84.8%;
+    height: 420px;
+    left: 7%;
+    top: 130px;
+    padding: 0;
+    /* background-color: #434343; */
+  }
+
+  .h2 {
+    width: 100%;
+    height: 148px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #434343;
+    text-align: center;
+  }
+
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 48px; */
+    width: 100%;
+    height: 400px;
+    /* background-color: #434343; */
+  }
+
+  .section-two {
+    width: 90%;
+    height: 290px;
+    position: absolute;
+    top: 110px;
+    /* background-color: #434343; */
+  }
+
+  .three {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 20px;
+    top: 30px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .four {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 100px;
+    top: 50px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .five {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    right: 120px;
+    top: 70px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .six {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    top: 90px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    font-family: 'Red Rose';
+    margin: 0;
+    color: #434343;
+    position: absolute;
+    top: 410px;
+  }
+
+  .search {
+    position: absolute;
+    top: 530px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1158px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* gap: 99px; */
+    position: absolute;
+    width: 84.8%;
+    height: 420px;
+    left: 7%;
+    top: 130px;
+    padding: 0;
+    /* background-color: #434343; */
+  }
+
+  .h2 {
+    width: 100%;
+    height: 148px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #434343;
+    text-align: center;
+  }
+
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 48px; */
+    width: 100%;
+    height: 400px;
+    /* background-color: #434343; */
+  }
+
+  .section-two {
+    width: 90%;
+    height: 290px;
+    position: absolute;
+    top: 110px;
+    /* background-color: #434343; */
+  }
+
+  .three {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 20px;
+    top: 0px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .four {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 150px;
+    top: 40px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .five {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 120px;
+    top: 60px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .six {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    right: 0px;
+    top: 80px;
+    border-radius: 15px;
+    box-shadow: -15px -10px 20px #4343437c;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    font-family: 'Red Rose';
+    margin: 0;
+    color: #434343;
+    position: absolute;
+    top: 430px;
+  }
+
+  .search {
+    position: absolute;
+    top: 530px;
+  }
 }

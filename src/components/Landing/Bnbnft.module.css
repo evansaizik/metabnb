@@ -33,7 +33,7 @@
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   background-clip: text;
 }
 
@@ -52,55 +52,215 @@
   width: 430px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
   background-clip: text;
 }
 
-.frame {
+#frame {
   position: absolute;
   width: 45%;
   height: 574.85px;
   left: 557px;
-  top: 100px;
-  /* background-color: white; */
+  top: 90px;
 }
 
-#one {
-  margin: 0;
-  width: 30rem;
-  height: 22rem;
-  /* background-color: red; */
-  position: absolute;
-  /* width: 378.2px; */
-  /* height: 253.89px; */
-  left: -39px;
-  top: 200px;
-  border-radius: 10px;
-  z-index: 1;
-  /* transform: rotate(-20.02deg); */
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 774px;
+    left: 0px;
+    top: 3950px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border: 1px solid #000000;
+  }
+
+  #frame {
+    width: 60%;
+    height: 200px;
+    left: 10%;
+    top: 150px;
+  }
+
+  .btn {
+    left: 10.94%;
+    width: 150px;
+    height: 50px;
+    top: 85.31%;
+  }
+
+  .h2 {
+    width: 92%;
+    height: 60px;
+    left: 10%;
+    top: 80px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+
+  .p {
+    position: absolute;
+    left: 6.94%;
+    right: 64.24%;
+    top: 50.3%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    width: 80%;
+    height: 300px;
+    background-clip: text;
+  }
 }
 
-#two {
-  margin: 0;
-  position: absolute;
-  /* background-color: red; */
-  width: 25rem;
-  height: 17rem;
-  left: 234px;
-  top: 284px;
-  border-radius: 10px;
-  transform: rotate(-8.76deg);
-  z-index: 2;
+@media screen and (min-width: 456px) and (max-width: 579px) {
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 774px;
+    left: 0px;
+    top: 3950px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border: 1px solid #000000;
+  }
+  #frame {
+    width: 72%;
+    height: 500px;
+    left: 5%;
+    top: 40px;
+  }
+
+  .btn {
+    left: 10.94%;
+    width: 150px;
+    height: 50px;
+    top: 83.31%;
+  }
+
+  .h2 {
+    width: 92%;
+    height: 60px;
+    left: 10%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    top: 80px;
+    font-size: 3.2rem;
+    line-height: 60px;
+  }
+
+  .p {
+    position: absolute;
+    left: 6.94%;
+    right: 64.24%;
+    top: 60.3%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    width: 85%;
+    height: 300px;
+    background-clip: text;
+  }
 }
 
-#three {
-  margin: 0;
-  position: absolute;
-  width: 29rem;
-  height: 30rem;
-  left: 170px;
-  top: -40px;
-  border-radius: 10px;
-  transform: rotate(-5deg);
-  /* background-color: red; */
+@media screen and (min-width: 580px) and (max-width: 767px) {
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 774px;
+    left: 0px;
+    top: 2500px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border: 1px solid #000000;
+  }
+  .h2 {
+    width: 92%;
+    height: 60px;
+    left: 10%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    top: 80px;
+    font-size: 3.3rem;
+    line-height: 60px;
+  }
+
+  #frame {
+    width: 80%;
+    height: 500px;
+    left: 6%;
+    top: 50px;
+  }
+
+  .p {
+    position: absolute;
+    left: 6.94%;
+    right: 64.24%;
+    top: 65.3%;
+    width: 85%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    height: 300px;
+    background-clip: text;
+  }
+
+  .btn {
+    left: 10.94%;
+    width: 150px;
+    height: 50px;
+    top: 86.31%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 774px;
+    left: 0px;
+    top: 2500px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border: 1px solid #000000;
+  }
+  
+  .h2 {
+    width: 92%;
+    height: 60px;
+    left: 10%;
+    font-family: 'Red Rose';  
+    font-style: normal;
+    font-weight: 400;
+    top: 80px;
+    font-size: 4.7rem;
+    line-height: 60px;
+  }
+
+  #frame {
+    width: 60%;
+    height: 60%;
+    left: 15%;
+    top: 80px;
+  }
+
+  .p {
+    position: absolute;
+    left: 6.94%;
+    right: 64.24%;
+    top: 70.3%;
+    width: 85%;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    height: 300px;
+    background-clip: text;
+  }
+
+  .btn {
+    left: 10.94%;
+    width: 150px;
+    height: 50px;
+    top: 86.31%;
+  }
 }

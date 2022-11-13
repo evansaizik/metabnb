@@ -1,6 +1,7 @@
 .layout {
   width: 100vw;
   height: 2505px;
+  /* background-color: red; */
 }
 
 .container {
@@ -11,4 +12,16 @@
   top: 0px;
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
   z-index: -1;
+}
+
+@media screen and (min-width: 375px) and (max-width: 579px) {
+  .layout {
+    height: 4724px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width:800px) {
+  .layout {
+    height: 3274px;
+  }
 }
