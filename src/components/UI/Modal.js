@@ -4,11 +4,13 @@ import metamask from '../Assets/metamask.svg';
 import wallet from '../Assets/walletconnection.svg'
 import proceedIcon from '../Assets/Down Chevron.svg';
 import Backdrop from './Backdrop';
+import ReactDOM from 'react-dom';
 
 const Modal = props => {
 
   return <>
-    <Backdrop onClick={props.onClick}/>
+    {ReactDOM.createPortal(<Backdrop onClick={props.onClick}/>, document.getElementById('backdrop'))}
+    
     <div className={styling.card}>
       <header className={styling.header}>
         <h4>Connect Wallet</h4>
