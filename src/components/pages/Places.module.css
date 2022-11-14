@@ -51,7 +51,7 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 48px;
+    gap: 30px;
     position: absolute;
     left: 6.94%;
     top: 1.9%;
@@ -61,7 +61,7 @@
 
   .page .location {
     position: absolute;
-    left: 58.5%;
+    left: 49.5%;
     top: 4%;
     width: 10rem;
   }
