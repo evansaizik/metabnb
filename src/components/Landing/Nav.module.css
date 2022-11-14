@@ -37,7 +37,7 @@ a {
     background-color: #434343;
     height: 330px;
     /* justify-content: center; */
-    z-index: 20;
+    z-index: 1;
     width: 71%;
   }
 
